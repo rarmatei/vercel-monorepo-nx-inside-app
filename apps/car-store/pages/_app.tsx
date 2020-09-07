@@ -8,7 +8,7 @@ const CustomApp = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
-        <title>Welcome to car-store!</title>
+        <title>Welcome to car-store 22!</title>
       </Head>
       <div className="app">
         <header className="flex">
