@@ -2,6 +2,7 @@ import React from 'react';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { ReactComponent as NxLogo } from '../public/nx-logo-white.svg';
+import { Aaa as NxLogo2 } from '../public/1.jpg';
 import './styles.css';
 
 const CustomApp = ({ Component, pageProps }: AppProps) => {
@@ -13,7 +14,8 @@ const CustomApp = ({ Component, pageProps }: AppProps) => {
       <div className="app">
         <header className="flex">
           <NxLogo width="75" height="50" />
-          <h1>Welcome to car-store!</h1>
+          <img src="/1.jpg" alt="my image" />
+          <h1>Welcome to car-store 3333!</h1>
         </header>
         <main>
           <Component {...pageProps} />
