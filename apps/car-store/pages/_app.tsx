@@ -14,7 +14,7 @@ const CustomApp = ({ Component, pageProps }: AppProps) => {
         <header className="flex">
           <NxLogo width="75" height="50" />
           <img src="/1.jpg" alt="my image" />
-          <h1>Welcome to car-store 3333!</h1>
+          <h1>Welcome to car-store 44!</h1>
         </header>
         <main>
           <Component {...pageProps} />
