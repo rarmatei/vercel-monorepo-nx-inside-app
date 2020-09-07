@@ -2,7 +2,6 @@ import React from 'react';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { ReactComponent as NxLogo } from '../public/nx-logo-white.svg';
-import { Aaa as NxLogo2 } from '../public/1.jpg';
 import './styles.css';
 
 const CustomApp = ({ Component, pageProps }: AppProps) => {
