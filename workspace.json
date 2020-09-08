@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {},
       "architect": {
-        "build:next": {
+        "build": {
           "builder": "@nrwl/next:build",
           "options": {
             "root": "apps/bike-store",
@@ -15,6 +15,15 @@
           },
           "configurations": {
             "production": {}
+          }
+        },
+        "build-vercel": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              "npm run nx build bike-store",
+              "cp -a apps/bike-store/public ."
+            ]
           }
         },
         "serve": {
@@ -91,7 +100,7 @@
       "projectType": "application",
       "schematics": {},
       "architect": {
-        "build-next": {
+        "build": {
           "builder": "@nrwl/next:build",
           "options": {
             "root": "apps/car-store",
@@ -101,11 +110,11 @@
             "production": {}
           }
         },
-        "build": {
+        "build-vercel": {
           "builder": "@nrwl/workspace:run-commands",
           "options": {
             "commands": [
-              "npm run nx build-next car-store",
+              "npm run nx build car-store",
               "cp -a apps/car-store/public ."
             ]
           }
