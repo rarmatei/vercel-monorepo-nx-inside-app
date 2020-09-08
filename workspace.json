@@ -91,7 +91,7 @@
       "projectType": "application",
       "schematics": {},
       "architect": {
-        "build:next": {
+        "build-next": {
           "builder": "@nrwl/next:build",
           "options": {
             "root": "apps/car-store",
@@ -105,7 +105,7 @@
           "builder": "@nrwl/workspace:run-commands",
           "options": {
             "commands": [
-              "npm run nx build:next car-store",
+              "npm run nx build-next car-store",
               "cp -a apps/car-store/public ."
             ]
           }
