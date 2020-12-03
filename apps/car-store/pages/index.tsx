@@ -2,6 +2,8 @@ import React from 'react';
 
 import styles from './index.module.scss';
 
+console.log("hello");
+
 export const Index = () => {
   /*
    * Replace the elements below with your own.
