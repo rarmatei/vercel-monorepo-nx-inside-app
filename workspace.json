@@ -14,10 +14,7 @@
             "outputPath": "dist/apps/bike-store"
           },
           "configurations": {
-            "production": {},
-            "vercel": {
-              "outputPath": "."
-            }
+            "production": {}
           }
         },
         "serve": {
@@ -101,10 +98,7 @@
             "outputPath": "dist/apps/car-store"
           },
           "configurations": {
-            "production": {},
-            "vercel": {
-              "outputPath": "."
-            }
+            "production": {}
           }
         },
         "serve": {
